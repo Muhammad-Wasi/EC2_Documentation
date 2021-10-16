@@ -31,4 +31,4 @@ const server = app.listen(port, () => {
 });
 
 app.get('/', (req, res) => res.send('Hello, world!'));
-app.get('/ec2Documentation', (req, res) => res.sendFile('./index.html', {root: __dirname }));
+app.get('/ec2_doc', (req, res) => res.sendFile('./index.html', {root: __dirname }));
